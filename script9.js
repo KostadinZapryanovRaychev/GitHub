@@ -34,5 +34,6 @@ const link5 = "http://wwww.facebook.com";
 // git branch <name> // creates new branch for us
 // git switch <name> // i se prehvurlqme na drugiq branch
 // git switch -c <name> // pravim nov branch i otivame na nego direktno
+// git log --graph --all // show the tree of all branches and their commits
 
 const javascript = "Verry stuping thing";
