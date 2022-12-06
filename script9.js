@@ -22,8 +22,15 @@ function objConvertor(str) {
   console.log(obj);
 }
 
+const link4 = "the link is the most important thin";
+
 // configuring git on global scope
 
 // git config --global user.name "Kostadin Raychev"
 // git config --global user.email "k.raychev@abv.bg"
 // git config --global --list // pokazva kak sme si setnali user.name and user.email
+// git log // all the commits listed out
+// git branch <name> // creates new branch for us
+// git switch <name> // i se prehvurlqme na drugiq branch
+
+const javascript = "Verry stuping thing";
