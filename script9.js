@@ -37,3 +37,15 @@ const link5 = "http://wwww.facebook.com";
 // git log --graph --all // show the tree of all branches and their commits
 
 const javascript = "Verry stuping thing";
+
+const javascriptMagicNewFeature = {
+  option: [1, '<select multiple="multiple">', "</select>"],
+  legend: [1, "<fieldset>", "</fieldset>"],
+  area: [1, "<map>", "</map>"],
+  param: [1, "<object>", "</object>"],
+  thead: [1, "<table>", "</table>"],
+  tr: [2, "<table><tbody>", "</tbody></table>"],
+  col: [2, "<table><tbody></tbody><colgroup>", "</colgroup></table>"],
+  td: [3, "<table><tbody><tr>", "</tr></tbody></table>"],
+  _default: [1, "<div>", "</div>"],
+};
