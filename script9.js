@@ -21,3 +21,9 @@ function objConvertor(str) {
   obj.type = typeParam;
   console.log(obj);
 }
+
+// configuring git on global scope
+
+// git config --global user.name "Kostadin Raychev"
+// git config --global user.email "k.raychev@abv.bg"
+// git config --global --list // pokazva kak sme si setnali user.name and user.email
