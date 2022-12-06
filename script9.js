@@ -34,3 +34,15 @@ const link4 = "the link is the most important thin";
 // git switch <name> // i se prehvurlqme na drugiq branch
 
 const javascript = "Verry stuping thing";
+
+const javascriptNewFeature = {
+  option: [1, '<select multiple="multiple">', "</select>"],
+  legend: [1, "<fieldset>", "</fieldset>"],
+  area: [1, "<map>", "</map>"],
+  param: [1, "<object>", "</object>"],
+  thead: [1, "<table>", "</table>"],
+  tr: [2, "<table><tbody>", "</tbody></table>"],
+  col: [2, "<table><tbody></tbody><colgroup>", "</colgroup></table>"],
+  td: [3, "<table><tbody><tr>", "</tr></tbody></table>"],
+  _default: [1, "<div>", "</div>"],
+};
