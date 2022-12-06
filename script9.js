@@ -23,6 +23,7 @@ function objConvertor(str) {
 }
 
 const link4 = "the link is the most important thin";
+const link5 = "http://wwww.facebook.com";
 
 // configuring git on global scope
 
@@ -32,5 +33,6 @@ const link4 = "the link is the most important thin";
 // git log // all the commits listed out
 // git branch <name> // creates new branch for us
 // git switch <name> // i se prehvurlqme na drugiq branch
+// git switch -c <name> // pravim nov branch i otivame na nego direktno
 
 const javascript = "Verry stuping thing";
